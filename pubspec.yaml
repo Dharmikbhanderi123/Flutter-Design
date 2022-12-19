@@ -56,12 +56,14 @@ dependencies:
   syncfusion_flutter_calendar: ^20.3.47
   image_picker: ^0.8.6
   path_provider: 
+  flutter_launcher_icons: ^0.10.0
 
   
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
  
 
     
