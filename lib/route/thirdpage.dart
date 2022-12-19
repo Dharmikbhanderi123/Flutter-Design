@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 
+import 'homepage.dart';
+
 class ThirdPage extends StatelessWidget {
   const ThirdPage({Key? key}) : super(key: key);
   @override
@@ -33,8 +35,8 @@ class ThirdPage extends StatelessWidget {
             ),
             MaterialButton(
               color: Colors.green,
-              onPressed: () => Get.back(),
-              child: const Text('Go Back'),
+              onPressed: () => Get.offNamed('/home'),
+              child: Text('Go Back'),
             ),
           ],
         ))));

@@ -1,6 +1,7 @@
 // import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/route/1.dart';
 import 'package:flutter_application_1/setting.dart/setting1home.dart';
 import 'package:flutter_application_1/shared%20login.dart/dashboard.dart';
 import 'package:flutter_application_1/shared%20login.dart/login.dart';
@@ -133,7 +134,7 @@ class myapp extends StatelessWidget {
 
 void main() {
   runApp(
-    table(),
+    MyApp50(),
   );
 }
 

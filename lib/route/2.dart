@@ -10,18 +10,18 @@ appRoutes() => [
         name: '/home',
         page: () => const HomePage5(),
         transition: Transition.fade,
-        transitionDuration: const Duration(milliseconds: 500),
+        transitionDuration: const Duration(milliseconds: 200),
       ),
       GetPage(
         name: '/second',
         page: () => SecondPage(),
         transition: Transition.zoom,
-        transitionDuration: const Duration(milliseconds: 500),
+        transitionDuration: const Duration(milliseconds: 200),
       ),
       GetPage(
         name: '/third',
         page: () => const ThirdPage(),
         transition: Transition.topLevel,
-        transitionDuration: const Duration(milliseconds: 500),
+        transitionDuration: const Duration(milliseconds: 200),
       ),
     ];
